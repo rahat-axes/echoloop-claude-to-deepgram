@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "echoloop"
+version = "0.1.0"
+description = "Deepgram speech tools for Claude's tool-use loop. Let Claude transcribe, speak, and read sentiment on demand."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Rahat Masum", email = "rahatapu103@gmail.com" }]
+keywords = ["deepgram", "claude", "anthropic", "tool-use", "speech-to-text", "text-to-speech"]
+dependencies = [
+    "anthropic>=0.40",
+    "deepgram-sdk",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "build", "twine"]
+
+[project.urls]
+Homepage = "https://github.com/rahat-axes/echoloop-claude-to-deepgram/echoloop"
+Repository = "https://github.com/rahat-axes/echoloop-claude-to-deepgram/echoloop"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/echoloop"]
