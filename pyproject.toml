@@ -26,3 +26,6 @@ Repository = "https://github.com/rahat-axes/echoloop-claude-to-deepgram/"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/echoloop"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/echoloop", "README.md", "LICENSE", "pyproject.toml"]
