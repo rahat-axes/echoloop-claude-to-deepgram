@@ -20,8 +20,8 @@ dependencies = [
 dev = ["pytest", "build", "twine"]
 
 [project.urls]
-Homepage = "https://github.com/rahat-axes/echoloop-claude-to-deepgram/echoloop"
-Repository = "https://github.com/rahat-axes/echoloop-claude-to-deepgram/echoloop"
+Homepage = "https://github.com/rahat-axes/echoloop-claude-to-deepgram/"
+Repository = "https://github.com/rahat-axes/echoloop-claude-to-deepgram/"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/echoloop"]
