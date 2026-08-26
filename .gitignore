@@ -1,7 +1,12 @@
-.venv/,
-__pycache__/,
-*.egg-info/,
-dist/,
-build/,
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
 .env
 claude/
+samples/
+scratch/
+scripts/
+/output.mp3
