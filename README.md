@@ -29,7 +29,7 @@ From a local clone (development):
 
 ```bash
 git clone https://github.com/rahat-axes/echoloop-claude-to-deepgram
-cd echoloop
+cd echoloop-claude-to-deepgram
 pip install -e .          # add ".[dev]" for pytest/build/twine
 ```
 
